@@ -4,7 +4,7 @@ library(rpart)
 
 #prepare the data
 
-risk <-read.csv("E:/sakshi/all subjects of MS/Trimester 6/Predictive Analytics/Class 8/Ensembles.txt",stringsAsFactors = FALSE,header = TRUE,
+risk <-read.csv("E:/Ensembles.txt",stringsAsFactors = FALSE,header = TRUE,
                 sep = ",")
 #View (df)
 choose=runif(dim(risk)[1],0,1)
